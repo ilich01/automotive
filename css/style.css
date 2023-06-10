@@ -1,0 +1,272 @@
+@font-face {
+  font-family: Quite Chocolatey;
+  src: url(../fonts/Quite\ Chocolatey.ttf);
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/static/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: Montserrat regular;
+  src: url(../fonts/static/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: couture;
+  src: url(../fonts/couture-bld.otf);
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.background_img {
+  background-image: url(../img/background.png);
+  background-size: 1280px;
+}
+.container {
+  width: 991px;
+  margin: 0 auto;
+}
+.container_logo {
+  width: 1011px;
+  margin: 0 auto;
+}
+.menu_inner {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo_inner {
+  font-size: 88px;
+  font-family: "Quite Chocolatey";
+  color: rgb(255, 255, 255);
+  line-height: 32px;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav li a {
+  font-size: 18px;
+  font-family: "Montserrat";
+  line-height: 22px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.nav li a:hover {
+  background-color: #130e27;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.discription {
+  margin: 0 auto;
+}
+.discription_inner {
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+}
+
+.discription_logo {
+  font-size: 65px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 15px;
+  text-align: left;
+  margin: 145px auto 50px auto;
+  text-transform: uppercase;
+}
+.discription_logo_first {
+  color: rgb(19, 14, 39);
+}
+.discription_logo_second {
+  color: #ffffff;
+}
+
+.discription_text {
+  max-width: 487px;
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  text-align: left;
+  padding-bottom: 150px;
+}
+.box {
+  height: 483px;
+}
+.box_title {
+  display: flex;
+  font-size: 37px;
+  font-family: "Couture";
+  font-weight: bold;
+  line-height: 80px;
+  text-align: left;
+}
+.box_title_first {
+  color: #c62314;
+  margin-right: 20px;
+}
+.box_title_second {
+  color: #130e27;
+}
+.box_inner {
+  display: flex;
+  justify-content: space-around;
+}
+.item {
+  text-align: center;
+}
+.fa {
+  font-size: 143px;
+  color: #130e27;
+  margin-bottom: 48px;
+}
+
+.item_text {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(22, 22, 22);
+  line-height: 28px;
+  text-align: center;
+  max-width: 176px;
+}
+.story {
+  background-color: #130e27;
+  padding: 30px;
+}
+.story_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.story_text {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  text-align: left;
+  max-width: 650px;
+  margin: auto;
+}
+.button {
+  padding: 25px;
+}
+.button a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-family: "Montserrat regular";
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.story_button {
+  background-color: #c62314;
+  padding: 25px 65px;
+  border-radius: 5px;
+}
+.pricing {
+  background-color: #efefef;
+}
+
+.pricing_title {
+  font-size: 50px;
+  font-family: "Montserrat";
+  color: rgb(19, 14, 39);
+  font-weight: bold;
+  line-height: 65px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  padding: 65px;
+}
+.card_container {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 320px;
+  margin-bottom: 65px;
+}
+.card_item {
+  background-color: #ffffff;
+  text-align: center;
+}
+.card_title {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(22, 22, 22);
+  line-height: 28px;
+  text-align: center;
+  font-weight: normal;
+  padding: 30px;
+  margin: 0;
+}
+.card_price {
+  font-size: 60px;
+  font-family: "Montserrat";
+  color: rgb(198, 35, 20);
+  font-weight: bold;
+  line-height: 80px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.card_options {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(22, 22, 22);
+  line-height: 28px;
+  font-weight: normal;
+  margin: 0 auto;
+  width: 180px;
+}
+.card_button_red {
+  background-color: #c62314;
+  padding: 15px 55px;
+  border-radius: 5px;
+  max-width: 206px;
+  margin: 0 auto;
+}
+.card_button_blue {
+  background-color: #130e27;
+  padding: 15px 55px;
+  border-radius: 5px;
+  max-width: 206px;
+  margin: 0 auto;
+}
+footer {
+  background-color: #130e27;
+}
+.copyrate {
+  justify-content: space-between;
+  display: flex;
+}
+.copyrate_text {
+  font-size: 20px;
+  font-family: "PT Serif";
+  line-height: 22px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.copyrate_text_first {
+  color: rgb(255, 255, 255);
+  margin-right: 5px;
+}
+.copyrate_text_second {
+  color: #c62314;
+}
+.footer_logo .logo_inner {
+  font-size: 64px;
+  color: #c62314;
+}
